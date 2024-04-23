@@ -12,7 +12,7 @@ const apiURL= "https://api.api-ninjas.com/v1/dadjokes?limit=1"
 async function getjoke(){
     jokeEl.innerHTML = "Updating...";
     btnEl.disabled = true;
-    btnEl.innerHTML = "Loadind...";
+    btnEl.innerHTML = "Loading...";
    const response = await fetch(apiURL, options);
    const data = await response.json();
 
