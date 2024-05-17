@@ -7,7 +7,7 @@ const options= {
         "X-Api-Key" : apiKey,
     },
 };
-const apiURL= "https://api.api-ninjas.com/v1/dadjokes?limit=1"
+const apiURL= "https://api.api-ninjas.com/v1/dadjokes"
 
 async function getjoke(){
     jokeEl.innerHTML = "Updating...";
